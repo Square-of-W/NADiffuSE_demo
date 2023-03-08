@@ -1,4 +1,4 @@
-# <center> NoreSpeech: Knowledge Distillation based Conditional Diffusion Model for Noise-robust Expressive TTS </center>
+# <center> NADiffuSE: Noise-aware Diffusion Model and Conditional Domain-aligned Method for Speech Enhancement </center>
 
 <!-- <center> Dongchao Yang<sup>1</sup>, Songxiang Liu<sup>2</sup>, Jianwei Yu<sup>2</sup>, Helin Wang<sup>3</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup></center> 
  
@@ -7,96 +7,40 @@
 <center> 3 Johns Hopkins University</center> -->
 
 ## Introduction
-This is a demo for our paper **_NoreSpeech: Knowledge Distillation based Conditional Diffusion Model for Noise-robust Expressive TTS_**. In the following, we will show some generated samples by our proposed method. We will release more samples, code and pre-trained models after the review. 
+This is a demo for our paper **_Noise-aware Diffusion Model and Conditional Domain-aligned Method for Speech Enhancement _**. In the following, we will show some enhanced audio samples by our proposed method. 
 
-## The comprarison between generated sample by other SOTA models and our NoreSpeech
+## The comprarison between enhanced audio samples by CDiffuSE and our NADiffuSE
 
-#### # Reference/Target Text: we must tread softly and talk low as we go through the land of the jolliginki
+#### p232_002
 
-| <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center> | <center>Styler </center> | <center>GenerSpeech (clean) </center> | <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center> | <center> NoreSpeech </center>|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-|<audio src="sample4/101_126859_000006_000000_ref_clean.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_ref_noise.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_fs2.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_styler.wav" controls preload></audio> |<audio src="sample4/101_126859_000006_000000_gener_clean.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_gener_noise.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_gener_denoise.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_nore.wav" controls preload></audio> |
+| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+| ----------- | ----------- | ----------- | ----------- |
+|<audio src="p232_002/clean.wav" controls preload></audio> | <audio src="p232_002/noisy.wav" controls preload></audio> | <audio src="p232_002/CDiffuSE.wav" controls preload></audio> | <audio src="p232_002/NADiffuSE.wav" controls preload></audio> |
 
-##### Reference/Target Text: a king has a great opportunity to make himself loved .
+#### p232_186
 
-| <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center> | <center>Styler </center> |<center>GenerSpeech (clean) </center> | <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center> | <center> NoreSpeech </center>|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-|<audio src="sample1/1025_75365_000002_000002_ref_clean.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_ref_noise.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_FS2.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_styler.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_gener_clean.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_gener_noise.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_gener_denoise.wav" controls preload></audio> | <audio src="sample1/1025_75365_000002_000002_nore.wav" controls preload></audio> |
+| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+| ----------- | ----------- | ----------- | ----------- |
+|<audio src="p232_186/clean.wav" controls preload></audio> | <audio src="p232_186/noisy.wav" controls preload></audio> | <audio src="p232_186/CDiffuSE.wav" controls preload></audio> | <audio src="p232_186/NADiffuSE.wav" controls preload></audio> |
 
-##### Reference/Target Text: maybe they were out of boys of the brand you wanted 
+#### p232_195
 
-| <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center> | <center>Styler </center> | <center>GenerSpeech (clean) </center> | <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center> | <center> NoreSpeech </center>|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-|<audio src="sample2/103_1241_000012_000002_ref_clean.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_ref_noisy.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_fs2.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_styler.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_gener_clean.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_gener_noise.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_gner_denoise.wav" controls preload></audio> | <audio src="sample2/103_1241_000012_000002_nore.wav" controls preload></audio> |
+| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+| ----------- | ----------- | ----------- | ----------- |
+|<audio src="p232_195/clean.wav" controls preload></audio> | <audio src="p232_195/noisy.wav" controls preload></audio> | <audio src="p232_195/CDiffuSE.wav" controls preload></audio> | <audio src="p232_195/NADiffuSE.wav" controls preload></audio> |
 
-##### Reference/Target Text: the rock was not much larger than their great bed , but of course they all knew how not to take up much room , and they were dozing , or at least lying with their eyes shut , and pinching occasionally when they thought wendy was not looking
+#### p257_065
 
-| <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center> | <center>Styler </center> | <center>GenerSpeech (clean) </center> | <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center> | <center> NoreSpeech </center>|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-|<audio src="sample3/1012_133424_000008_000001_ref_clean.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_ref_noise.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_fs2.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_styler.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_gener_clean.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_gener_noise.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_gener_denoise.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_nore.wav" controls preload></audio> |
+| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+| ----------- | ----------- | ----------- | ----------- |
+|<audio src="p257_065/clean.wav" controls preload></audio> | <audio src="p257_065/noisy.wav" controls preload></audio> | <audio src="p257_065/CDiffuSE.wav" controls preload></audio> | <audio src="p257_065/NADiffuSE.wav" controls preload></audio> |
 
-### Non-Parallel Transfer
-In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. 
+#### p257_421
 
-##### (1) Reference Text: when it was all done he put it on the table beside me , and at first i did nt know whether i was the live rabbit or the toy rabbit , we were so much alike 
+| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+| ----------- | ----------- | ----------- | ----------- |
+|<audio src="p257_421/clean.wav" controls preload></audio> | <audio src="p257_421/noisy.wav" controls preload></audio> | <audio src="p257_421/CDiffuSE.wav" controls preload></audio> | <audio src="p257_421/NADiffuSE.wav" controls preload></audio> |
 
-| Reference audio |
-| -----------     |
-| <audio src="non_pa/sample1/100_121674_000026_000003.wav" controls preload></audio> |
-
-##### Target Text: well , his grill has a plating of gold , and his twistings are greatly admired
-
-| <center> Styler </center> | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
-| -----------     |  -----------     |
-| <audio src="non_pa/sample1/100_121674_000026_000003[Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample1/[000001][100_121674_000026_000003][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample1/[000001][100_121674_000026_000003][Generalize]Y.wav" controls preload></audio> |
-
-##### (2) Reference Text: chapter eight the mermaids lagoon
-
-| Reference audio |
-| -----------     |
-| <audio src="non_pa/sample2/1012_133424_000001_000000.wav" controls preload></audio> |
-
-##### Target Text: to be more accurate , i should have said to the northeast
-
-|  <center> Styler </center> | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
-| -----------     |  -----------     |
-| <audio src="non_pa/sample2/1012_133424_000001_000000[Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample2/[000005][1012_133424_000001_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample2/[000005][1012_133424_000001_000000][Generalize]Y.wav" controls preload></audio> |
-
-##### (3) Reference Text: some of the reverend frank milveys brethren had found themselves exceedingly uncomfortable in their minds , because they were required to bury the dead too hopefully 
-
-| Reference audio |
-| -----------     |
-| <audio src="non_pa/sample3/1027_125140_000008_000000.wav" controls preload></audio> |
-
-##### Target Text: but there was a passenger dropped off for you a little girl
-
-| <center> Styler </center> | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
-| -----------     |  -----------     |
-| <audio src="non_pa/sample3/1027_125140_000008_000000[Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample3/[000027][1027_125140_000008_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample3/[000027][1027_125140_000008_000000][Generalize]Y.wav" controls preload></audio> |
-
-##### (4) Reference Text: baron conrad and his men at arms sat foot in stirrup , the milk white horse that had been brought for otto stood waiting for him beside his fathers great charger. 
-
-| Reference audio |
-| -----------     |
-| <audio src="non_pa/sample4/1028_133393_000002_000001.wav" controls preload></audio> |
-
-##### Target Text: she would invoke the past , recall old recollections ; she would supplicate him by the remembrance of guilty , yet happy days.
-
-| <center> Styler </center> |<center> GenerSpeech </center> | <center> NoreSpeech </center>|
-| -----------     |  -----------     |
-| <audio src="non_pa/sample4/1028_133393_000002_000001[Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample4/[000031][1028_133393_000002_000001][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample4/[000031][1028_133393_000002_000001][Generalize]Y.wav" controls preload></audio> |
-
-##### (5) Reference Text: the morrow brought a very sober looking morning , the sun making only a few efforts to appear , and catherine augured from it everything most favourable to her wishes 
-
-| Reference audio |
-| -----------     |
-| <audio src="non_pa/sample5/14_208_000001_000000.wav" controls preload></audio> |
-
-##### Target Text: the store is on a corner about which coveys of ragged plumed , hilarious children play and become candidates for the cough drops and soothing syrups that wait for them inside.
-
-| <center> Styler </center> | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
-| -----------     |  -----------     |
-| <audio src="non_pa/sample5/14_208_000001_000000[Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]Y.wav" controls preload></audio> |
 
 <!-- ## Links
 
