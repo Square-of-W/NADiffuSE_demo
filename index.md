@@ -14,7 +14,7 @@ This is a demo for our paper **_Noise-aware Diffusion Model and Conditional Doma
 #### p232_002
 
 |<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
-| ----------- | ----------- | ----------- | ----------- | ----------- |
+| :----------- | :----------- | :----------- | :----------- | :----------- |
 |<center>Waveform</center>|<audio src="p232_002/clean.wav" controls preload></audio> | <audio src="p232_002/noisy.wav" controls preload></audio> | <audio src="p232_002/CDiffuSE.wav" controls preload></audio> | <audio src="p232_002/NADiffuSE.wav" controls preload></audio> |
 |<center>Spectrogram</center>|<img src="Specs/p232_002/clean.png" width="15%" height="15%" /> | <img src="Specs/p232_002/noisy.png" width="15%" height="15%" /> | <img src="Specs/p232_002/CDiffuSE.png" width="15%" height="15%" /> | <img src="Specs/p232_002/NADiffuSE.png" width="15%" height="15%" /> |
 
