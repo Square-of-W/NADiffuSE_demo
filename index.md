@@ -13,35 +13,35 @@ This is a demo for our paper **_Noise-aware Diffusion Model and Conditional Doma
 
 #### p232_002
 
-<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+|<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 |<center>Waveform</center>|<audio src="p232_002/clean.wav" controls preload></audio> | <audio src="p232_002/noisy.wav" controls preload></audio> | <audio src="p232_002/CDiffuSE.wav" controls preload></audio> | <audio src="p232_002/NADiffuSE.wav" controls preload></audio> |
 |<center>Spectrogram</center>|<img src="Specs/p232_002/clean.png" width="15%" height="15%" /> | <img src="Specs/p232_002/noisy.png" width="15%" height="15%" /> | <img src="Specs/p232_002/CDiffuSE.png" width="15%" height="15%" /> | <img src="Specs/p232_002/NADiffuSE.png" width="15%" height="15%" /> |
 
 #### p232_186
 
-<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+|<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
 | -----------| ----------- | ----------- | ----------- | ----------- |
 |<center>Waveform</center>|<audio src="p232_186/clean.wav" controls preload></audio> | <audio src="p232_186/noisy.wav" controls preload></audio> | <audio src="p232_186/CDiffuSE.wav" controls preload></audio> | <audio src="p232_186/NADiffuSE.wav" controls preload></audio> |
 |<center>Spectrogram</center>|<img src="Specs/p232_186/clean.png" width="15%" height="15%" /> | <img src="Specs/p232_186/noisy.png" width="15%" height="15%" /> | <img src="Specs/p232_186/CDiffuSE.png" width="15%" height="15%" /> | <img src="Specs/p232_186/NADiffuSE.png" width="15%" height="15%" /> |
 
 #### p232_195
 
-<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+|<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
 | -----------| ----------- | ----------- | ----------- | ----------- |
 |<center>Waveform</center>|<audio src="p232_195/clean.wav" controls preload></audio> | <audio src="p232_195/noisy.wav" controls preload></audio> | <audio src="p232_195/CDiffuSE.wav" controls preload></audio> | <audio src="p232_195/NADiffuSE.wav" controls preload></audio> |
 |<center>Spectrogram</center>|<img src="Specs/p232_195/clean.png" width="15%" height="15%" /> | <img src="Specs/p232_195/noisy.png" width="15%" height="15%" /> | <img src="Specs/p232_195/CDiffuSE.png" width="15%" height="15%" /> | <img src="Specs/p232_195/NADiffuSE.png" width="15%" height="15%" /> |
 
 #### p257_065
 
-<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+|<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
 | -----------| ----------- | ----------- | ----------- | ----------- |
 |<center>Waveform</center>|<audio src="p257_065/clean.wav" controls preload></audio> | <audio src="p257_065/noisy.wav" controls preload></audio> | <audio src="p257_065/CDiffuSE.wav" controls preload></audio> | <audio src="p257_065/NADiffuSE.wav" controls preload></audio> |
 |<center>Spectrogram</center>|<img src="Specs/p257_065/clean.png" width="15%" height="15%" /> | <img src="Specs/p257_065/noisy.png" width="15%" height="15%" /> | <img src="Specs/p257_065/CDiffuSE.png" width="15%" height="15%" /> | <img src="Specs/p257_065/NADiffuSE.png" width="15%" height="15%" /> |
 
 #### p257_421
 
-<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
+|<center>Data</center>| <center>Clean</center> | <center>Noisy</center> | <center>CDiffuSE </center> | <center>NADiffuSE </center> | 
 | -----------| ----------- | ----------- | ----------- | ----------- |
 |<center>Waveform</center>|<audio src="p257_421/clean.wav" controls preload></audio> | <audio src="p257_421/noisy.wav" controls preload></audio> | <audio src="p257_421/CDiffuSE.wav" controls preload></audio> | <audio src="p257_421/NADiffuSE.wav" controls preload></audio> |
 |<center>Spectrogram</center>|<img src="Specs/p257_421/clean.png" width="15%" height="15%" /> | <img src="Specs/p257_421/noisy.png" width="15%" height="15%" /> | <img src="Specs/p257_421/CDiffuSE.png" width="15%" height="15%" /> | <img src="Specs/p257_421/NADiffuSE.png" width="15%" height="15%" /> |
